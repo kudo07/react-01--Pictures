@@ -2,7 +2,11 @@
 
 ![App Screenshot](public/dis.png)
 
-[<img src="public/redux.svg" alt="Redux Logo" width="50" height="50" />][<img src="public/react.svg" alt="Redux Logo" width="50"] height="50" />[<img src="public/ai.svg" alt="Redux Logo" width="50" height="50" />]
+<p>
+  <img src="public/redux.svg" alt="Redux Logo" width="50" />
+  <img src="public/ai.svg" alt="Redux Logo" width="50" />
+  <img src="public/react.svg" alt="Redux Logo" width="50" />
+</p>
 
 1.🌲[INTRODUCTION](#introduction)\
 2.💰[TECH STACK](#tech)\
