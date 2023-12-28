@@ -1,6 +1,9 @@
 # 📋 APPENDIX
 
 ![App Screenshot](public/dis.png)
+![Step 1](public/react.png)
+![Step 2](public/redux.png)
+![Step 3](public/ai.png)
 1.🌲[INTRODUCTION](#introduction)\
 2.💰[TECH STACK](#tech)\
 3.🏦[FEATURES](#features)\
