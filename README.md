@@ -50,7 +50,7 @@ Material UI
 \
 🌞🌚 User-friendly light/dark mode toggle accommodates diverse preferences for a visually comfortable experience.
 
-## ISTALLATION
+## INSTALLATION
 
 Follow these steps to set up the project locally on your machine.
 Install my-project with npm
