@@ -46,7 +46,7 @@ Material UI
 \
 📑 Seamless pagination enhances user experience by breaking down movie lists into manageable pages.\
 \
-👉**Light/dark mode toggle**
+👉**Light/dark mode toggle**\
 \
 🌞🌚 User-friendly light/dark mode toggle accommodates diverse preferences for a visually comfortable experience.
 
@@ -65,12 +65,15 @@ Make sure you have the following installed on your machine:
 ### Node.js
 
 - [Node.js Official Website](https://nodejs.org/)
-  - Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-  ### npm (Node Package Manager)
-  - [npm Documentation](https://docs.npmjs.com/)
-  - Official documentation for npm, the package manager for Node.js.
-  ```bash
-  npm install my-project
-  cd my-project
-  npm start
-  ```
+- Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+
+### npm (Node Package Manager)
+
+- [npm Documentation](https://docs.npmjs.com/)
+- Official documentation for npm, the package manager for Node.js.
+
+```bash
+npm install my-project
+cd my-project
+npm start
+```
