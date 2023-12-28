@@ -10,7 +10,7 @@
 
 1.🌲[INTRODUCTION](#introduction)\
 \
-2.💰[TECH STACK](#techstack)\
+2.💰[TECH STACK](#tech-stack)\
 \
 3.🏦[FEATURES](#features)\
 \
@@ -20,14 +20,14 @@
 
 This is the movies site to display the movies with the smooth UI and AI powered voice assistent using ReactJs , Redux and Material UI
 
-## 💰TECH STACK
+## 💰TECH-STACK
 
 ReactJs\
 Redux\
 Alan AI\
 Material UI
 
-## 🏦Features
+## 🏦FEATURES
 
 \
 👉**Movie Recommendations**\
@@ -50,7 +50,7 @@ Material UI
 \
 🌞🌚 User-friendly light/dark mode toggle accommodates diverse preferences for a visually comfortable experience.
 
-## Installation
+## ISTALLATION
 
 Follow these steps to set up the project locally on your machine.
 Install my-project with npm
