@@ -2,7 +2,7 @@
 
 ![App Screenshot](public/dis.png)
 
-<p>
+<p align="center">
   <img src="public/redux.svg" alt="Redux Logo" width="50" />
   <img src="public/ai.svg" alt="Redux Logo" width="50" />
   <img src="public/react.svg" alt="Redux Logo" width="50" />
