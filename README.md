@@ -3,9 +3,9 @@
 ![App Screenshot](public/dis.png)
 
 1.🌲[INTRODUCTION](#introduction)\
-2.💰TECH STACK\
-3.🏦FEATURES\
-4.QUICK START
+2.💰[TECH STACK](#tech)\
+3.🏦[FEATURES](#features)\
+4.🧾[QUICK START](#installation)
 
 ## 🌲INTRODUCTION
 
@@ -20,12 +20,17 @@ Material UI
 
 ## 🏦Features
 
-👉**Movie Category**\
+👉**Movie Recommendations**
+🎬 Personalized movie suggestions based on user preferences and behavior for an enriched viewing experience.\
 👉**Search functionality**\
+🔍 Efficient search functionality allows users to quickly find their favorite movies or explore new titles.
 👉**Authentication**\
+🔐 Secure user authentication ensures a personalized and protected experience for each individual.
 👉**Pagination**\
-👉**Movie Recommentdations**\
+📑 Seamless pagination enhances user experience by breaking down movie lists into manageable pages.
+
 👉**Light/dark mode toggle**
+🌞🌚 User-friendly light/dark mode toggle accommodates diverse preferences for a visually comfortable experience.
 
 ## Installation
 
