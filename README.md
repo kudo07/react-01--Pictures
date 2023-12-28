@@ -10,7 +10,7 @@
 
 1.🌲[INTRODUCTION](#introduction)\
 \
-2.💰[TECH STACK](#tech stack)\
+2.💰[TECH STACK](#techstack)\
 \
 3.🏦[FEATURES](#features)\
 \
