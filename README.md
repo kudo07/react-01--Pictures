@@ -1,13 +1,11 @@
 # 📋 APPENDIX
 
 ![App Screenshot](public/dis.png)
-![Step 1](<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<circle cx="12" cy="12" r="10" />
-<line x1="12" y1="16" x2="12" y2="12" />
-<line x1="12" y1="8" x2="12" y2="8" />
-</svg>)
+
 <img src="public/redux.svg" alt="Redux Logo" width="50" height="50" />
-![Step 3](public/ai.svg)
+<img src="public/react.svg" alt="Redux Logo" width="50" height="50" />
+<img src="public/ai.svg" alt="Redux Logo" width="50" height="50" />
+
 1.🌲[INTRODUCTION](#introduction)\
 2.💰[TECH STACK](#tech)\
 3.🏦[FEATURES](#features)\
