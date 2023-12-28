@@ -1,9 +1,9 @@
 # 📋 APPENDIX
 
 ![App Screenshot](public/dis.png)
-![Step 1](public/react.png)
-![Step 2](public/redux.png)
-![Step 3](public/ai.png)
+![Step 1](public/react.svg)
+![Step 2](public/redux.svg)
+![Step 3](public/ai.svg)
 1.🌲[INTRODUCTION](#introduction)\
 2.💰[TECH STACK](#tech)\
 3.🏦[FEATURES](#features)\
@@ -24,12 +24,16 @@ Material UI
 
 👉**Movie Recommendations**\
 🎬 Personalized movie suggestions based on user preferences and behavior for an enriched viewing experience.\
+\
 👉**Search functionality**\
 🔍 Efficient search functionality allows users to quickly find their favorite movies or explore new titles.\
+\
 👉**Authentication**\
 🔐 Secure user authentication ensures a personalized and protected experience for each individual.\
+\
 👉**Pagination**\
 📑 Seamless pagination enhances user experience by breaking down movie lists into manageable pages.\
+\
 👉**Light/dark mode toggle**
 🌞🌚 User-friendly light/dark mode toggle accommodates diverse preferences for a visually comfortable experience.
 
