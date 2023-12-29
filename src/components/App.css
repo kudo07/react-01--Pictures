@@ -1,0 +1,11 @@
+.root {
+  display: 'flex';
+  height: '100%';
+}
+.content {
+  flex-grow: 1;
+  padding: 6em 2em 2em;
+}
+.toolbar {
+  height: '70px';
+}
