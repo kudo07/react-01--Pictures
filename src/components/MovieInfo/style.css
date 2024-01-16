@@ -1,0 +1,96 @@
+.containerSpaceAround {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .containerSpaceAround {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.poster {
+  border-radius: 20px;
+  box-shadow: 0.5em 1em 1em rgb(64, 64, 70);
+  width: 80%;
+}
+
+@media screen and (max-width: 960px) {
+  .poster {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .poster {
+    margin: 0 auto;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+}
+
+.genresContainer {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.genreImage {
+  margin-right: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .links {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.castImage {
+  width: 100%;
+  max-width: 7em;
+  height: 8em;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .buttonContainer {
+    flex-direction: column;
+  }
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .video {
+    width: 90%;
+    height: 90%;
+  }
+}

@@ -36,7 +36,7 @@ export const tmdbApi = createApi({
     //* Get Movie by id used in Profile.jsx
     getMovie: builder.query({
       query: (id) =>
-        `/movie/${id}?append_to_response=videos,credit&api_key=${tmdbApiKey}`,
+        `/movie/${id}?append_to_response=videos,credits&api_key=${tmdbApiKey}`,
     }),
   }),
 });
