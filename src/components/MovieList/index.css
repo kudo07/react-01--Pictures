@@ -1,0 +1,11 @@
+.moviesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: auto;
+}
+@media (min-width: 600px) {
+  .moviesContainer {
+    justify-content: center;
+  }
+}

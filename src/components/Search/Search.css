@@ -1,0 +1,19 @@
+/* Assume you have a class named 'searchContainer' for the container */
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Assume you have a class named 'input' for the input element */
+.input {
+  /* Color based on theme mode */
+  color: light;
+
+  /* Filter based on theme mode */
+  filter: invert(1);
+
+  /* Margin adjustments for smaller screens */
+  margin-top: -10px;
+  margin-bottom: 10px;
+}

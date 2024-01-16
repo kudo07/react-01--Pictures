@@ -1,0 +1,53 @@
+.toolbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 240px;
+}
+/* if x till 600px */
+/* if something is more than 600px */
+@media (max-width: 600px) {
+  .toolbar {
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+}
+
+.menuButton {
+  margin-right: 16px; /* Equivalent to theme.spacing(2) */
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .menuButton {
+    display: none;
+  }
+}
+/* styles.css */
+.drawer {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.drawerPaper {
+  width: 240px;
+}
+
+.linkButton:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+/* Media query for screens 600px and above */
+@media (min-width: 600px) {
+  .drawer {
+    width: 240px;
+    flex-shrink: 0;
+  }
+
+  .drawerPaper {
+    width: 240px;
+  }
+}
+
+/* if x<600px */

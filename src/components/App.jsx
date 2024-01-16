@@ -11,7 +11,7 @@ function App() {
       <main className="content">
         <div className="toolbar" />
         <Routes>
-          <Route path="/mov ie/:id" element={<MovieInfo />}></Route>
+          <Route path="/movie/:id" element={<MovieInfo />}></Route>
           <Route path="/actors/:id" element={<Actors />}></Route>
           <Route path="/" element={<Movies />}></Route>
           <Route path="/profile/:id" element={<Profile />}></Route>
