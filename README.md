@@ -35,7 +35,7 @@ Material UI
 \
 👉**Home Page**\
 \
-🎬Showcases a visually appealing display of cars fetched from a third-party API, providing a captivating introduction to the diverse range of vehicles available.\
+🎬Showcases a visually appealing display of movies fetched from a third-party API called TMDB, providing a captivating introduction to the diverse range of Movies available which updates in continuously .\
 \
 👉**Search functionality**\
 \
