@@ -1,5 +1,4 @@
 import React from 'react';
-import light from './light.png';
 import dark from './dark.png';
 import { Link } from 'react-router-dom';
 import './Sidebar.css';
@@ -28,7 +27,7 @@ const Sidebar = ({ setMobileOpen, isDarkMode }) => {
   const { genreIdOrCategoryName } = useSelector(
     (state) => state.currentGenreOrCategory
   );
-  const imageClass = `img ${isDarkMode ? 'dark-mode' : ''}`;
+  // const imageClass = `img ${isDarkMode ? 'dark-mode' : ''}`;
   const { data, isFetching } = useGetGenresQuery();
   const dispatch = useDispatch();
   // send specific data from component to redux
@@ -36,11 +35,7 @@ const Sidebar = ({ setMobileOpen, isDarkMode }) => {
   return (
     <>
       <Link to="/" className="imageLink">
-        <img
-          src={isDarkMode ? dark : light}
-          className="logo"
-          alt="Filmpire Logo"
-        />
+        <img src={dark} className="logo" alt="Filmpire Logo" />
       </Link>
       <Divider />
       <List>
