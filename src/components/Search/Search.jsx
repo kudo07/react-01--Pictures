@@ -16,7 +16,7 @@ const Search = () => {
   return (
     <div className="searchContainer">
       <TextField
-        onKeyPress={handleKeyPress}
+        onKeyUp={handleKeyPress}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         variant="standard"
