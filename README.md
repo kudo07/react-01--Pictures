@@ -18,7 +18,7 @@
 
 ## 🌲INTRODUCTION
 
-This is the movies site to display the movies with the smooth UI and AI powered voice assistent using ReactJs , Redux and Material UI
+This is the movies site to display the movies with the smooth UI using ReactJs , Redux and Material UI
 
 ## 💰TECH-STACK
 
@@ -32,7 +32,6 @@ Material UI
 👉**Movie Recommendations**\
 \
 🎬 Personalized movie suggestions based on user preferences and behavior for an enriched viewing experience.\
-\
 \
 👉**Home Page**\
 \
@@ -49,7 +48,6 @@ Material UI
 👉**Pagination**\
 \
 📑 Seamless pagination enhances user experience by breaking down movie lists into manageable pages.\
-\
 
 ## INSTALLATION
 
