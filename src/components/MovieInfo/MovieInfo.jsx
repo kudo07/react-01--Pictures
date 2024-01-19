@@ -243,7 +243,7 @@ const MovieInfo = () => {
                 </Button>
               </ButtonGroup>
             </Grid>
-            <Grid item sx={12} sm={6} className="buttonContainer">
+            <Grid item sm={6} className="buttonContainer">
               <ButtonGroup size="small" variant="outlined">
                 <Button
                   onClick={addToFavorites}
@@ -259,16 +259,12 @@ const MovieInfo = () => {
                 >
                   Watchlist
                 </Button>
-                <Button
-                  endIcon={<ArrowBack />}
-                  sx={{ borderColor: 'primary.main' }}
-                >
+                <Button endIcon={<ArrowBack />}>
                   <Typography
                     variant="subtitle2"
                     component={Link}
                     to="/"
                     color="inherit"
-                    sx={{ textDecoration: 'none' }}
                   >
                     Back
                   </Typography>
