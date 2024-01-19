@@ -1,0 +1,36 @@
+.imagee {
+  height: 500px;
+  width: 350px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0.5em 0.5em 1em;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+@media screen and (max-width: 640px) {
+  .imagee {
+    /* margin: 0 auto; */
+    height: 350px;
+    width: 300px;
+    display: flex;
+    /* margin-right: 10px; */
+    overflow: hidden;
+    justify-content: centre;
+    align-items: center;
+    /* margin-left: 5px; */
+
+    /* flex-direction: column; */
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0.5em 0.5em 1em;
+    &:hover {
+      transform: scale(0.65);
+    }
+  }
+}
+btns {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}

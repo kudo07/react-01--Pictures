@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import {
   AppBar,
   IconButton,
@@ -29,6 +29,7 @@ const NavBar = () => {
   const [isMobileView, setIsMobileView] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+
   const dispatch = useDispatch();
 
   const token = localStorage.getItem('request_token');
@@ -55,11 +56,6 @@ const NavBar = () => {
     logInUser();
   }, [token]);
 
-  // dark theme toggle
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-  };
-  // mobile view of sidebar
   useEffect(() => {
     const handleResize = () => {
       setIsMobileView(window.innerWidth <= 600);
@@ -87,15 +83,19 @@ const NavBar = () => {
               <Menu />
             </IconButton>
           )}
-          <IconButton color="inherit" edge="start" onClick={toggleTheme}>
+          {/* <IconButton
+            color="inherit"
+            edge="start"
+            onClick={colorMode.toggleColorMode}
+          >
             {isDarkMode ? <Brightness7 /> : <Brightness4 />}
-          </IconButton>
+          </IconButton> */}
           {!isMobileView && <Search />}
           {/* login or not */}
           <div>
             {!isAuthenticated ? (
               <Button color="inherit" onClick={fetchToken}>
-                LogIn &nbsp; <AccountCircle />
+                LogIn <AccountCircle />
               </Button>
             ) : (
               <Button
@@ -105,9 +105,9 @@ const NavBar = () => {
                 className="linkButton"
                 onClick={() => {}}
               >
-                {!isMobileView && <>My Movies &nbsp;</>}
+                {!isMobileView && <>Movies</>}
                 <Avatar
-                  style={{ width: 30, height: 30 }}
+                  style={{ width: 20, height: 20 }}
                   alt="Profile"
                   src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
                 />

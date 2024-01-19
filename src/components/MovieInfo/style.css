@@ -14,7 +14,8 @@
 .poster {
   border-radius: 20px;
   box-shadow: 0.5em 1em 1em rgb(64, 64, 70);
-  width: 80%;
+  /* width: 80%; */
+  height: 500px;
 }
 
 @media screen and (max-width: 960px) {
@@ -41,6 +42,7 @@
 }
 
 .genreImage {
+  /* filter: invert(1); */
   margin-right: 10px;
 }
 
@@ -70,10 +72,18 @@
   justify-content: space-between;
   width: 100%;
 }
+/* max-width
+t means if screen is less than 600px then the above block code will work?
+ChatGPT
+Exactly. When the screen width is less than or equal to 600 pixels, the styles within the @media screen and (max-width: 600px) block will be applied
 
-@media screen and (max-width: 600px) {
+min-with--600px
+If you want to apply styles when the screen width is equal to or greater than 600 pixels, */
+@media screen and (max-width: 900px) {
   .buttonContainer {
     flex-direction: column;
+    /* margin: 2px; */
+    justify-content: space-evenly;
   }
 }
 

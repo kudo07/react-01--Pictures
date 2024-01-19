@@ -2,6 +2,24 @@
   display: 'flex';
   height: '100%';
 }
+body {
+  background-image: repeating-linear-gradient(
+      to right,
+      #fff2f5,
+      #fff0f3,
+      1px,
+      transparent 1px,
+      transparent 30px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #fcedf0,
+      #fcedf0,
+      1px,
+      transparent 1px,
+      transparent 30px
+    );
+}
 .content {
   flex-grow: 1;
   margin-top: 10px;

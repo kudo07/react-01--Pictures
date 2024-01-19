@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.button {
+  margin: 30px 2px;
+}
+.pageNumber {
+  margin: 0 20px;
+}

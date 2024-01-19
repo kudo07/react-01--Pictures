@@ -1,11 +1,11 @@
 # 📋 APPENDIX
 
-![App Screenshot](public/dis.png)
+![App Screenshot](public/bg.png)
 
 <p align="center">
   <img src="public/redux.svg" alt="Redux Logo" width="50" />
-  <img src="public/ai.svg" alt="Redux Logo" width="50" />
   <img src="public/react.svg" alt="Redux Logo" width="50" />
+  <img src="public/mui.svg" alt="Redux Logo" width="50" />
 </p>
 
 1.🌲[INTRODUCTION](#introduction)\
@@ -24,7 +24,6 @@ This is the movies site to display the movies with the smooth UI and AI powered 
 
 ReactJs\
 Redux\
-Alan AI\
 Material UI
 
 ## 🏦FEATURES
@@ -34,21 +33,23 @@ Material UI
 \
 🎬 Personalized movie suggestions based on user preferences and behavior for an enriched viewing experience.\
 \
+\
+👉**Home Page**\
+\
+🎬Showcases a visually appealing display of cars fetched from a third-party API, providing a captivating introduction to the diverse range of vehicles available.\
+\
 👉**Search functionality**\
 \
 🔍 Efficient search functionality allows users to quickly find their favorite movies or explore new titles.\
 \
 👉**Authentication**\
 \
-🔐 Secure user authentication ensures a personalized and protected experience for each individual.\
+🔐 Secure user authentication ensures a personalized and protected experience for each individual. We Used the Authentication from TMDB Api documentation\
 \
 👉**Pagination**\
 \
 📑 Seamless pagination enhances user experience by breaking down movie lists into manageable pages.\
 \
-👉**Light/dark mode toggle**\
-\
-🌞🌚 User-friendly light/dark mode toggle accommodates diverse preferences for a visually comfortable experience.
 
 ## INSTALLATION
 

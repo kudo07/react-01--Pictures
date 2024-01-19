@@ -1,0 +1,48 @@
+/* CSS file */
+
+.featuredCardContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  height: 490px;
+  text-decoration: none;
+}
+
+.card {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.cardRoot {
+  position: relative;
+}
+
+.cardMedia {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.575);
+  background-blend-mode: darken;
+}
+
+.cardContent {
+  color: #fff;
+  width: 40%;
+}
+
+.cardContentRoot {
+  position: relative;
+  background-color: transparent;
+}
+
+/* You can use media queries for responsive design */
+@media screen and (max-width: 600px) {
+  .cardContent {
+    width: 100%;
+  }
+}

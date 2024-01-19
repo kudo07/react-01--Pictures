@@ -5,8 +5,7 @@
 
 .img {
   width: 200px; /* Adjust the width as needed */
-  height: auto; /* Adjust the height as needed */
-  filter: grayscale(0); /* Default filter for light mode */
+  height: auto; /* Adjust the height as needed */ /* Default filter for light mode */
   /* content: url('https://fontmeme.com/permalink/210930/8531c658a743debe1e1aa1a2fc82006e.png'); */
   /* Default image for light mode */
 }
@@ -23,4 +22,8 @@
 
 .links:hover {
   color: #007bff; /* Set your link hover color */
+}
+.logo {
+  height: 100px;
+  width: 100%;
 }
